@@ -1,0 +1,52 @@
+html{
+    scroll-behavior: smooth;
+}
+.home
+{
+    display: center;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+
+
+
+.navbar{
+    position: relativ;
+    color: black;
+
+}
+.navbar .menu li
+{
+   list-style: none;
+   display: center;
+}
+.navbar .menu li a {
+    display: block;
+    color: #0f0f0f;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+    
+}
+.project-list li{
+    list-style: none;
+    display: inline-block;
+    color: #21e421;
+    font-size: 80px; 
+}
+.project-list li a
+{
+   
+    font-size: 120px; 
+    display: inline-block;
+    color: #21e421;
+    font-weight: 600;
+    margin-left: 120px;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
